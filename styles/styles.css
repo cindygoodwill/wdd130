@@ -20,3 +20,37 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
+main {
+    max-width: 900px;
+}
+
+aside {
+    width: 400px;
+    margin: 15px;
+    border: 3 dashed black;
+    padding: 30px;
+    background-color: #c7f9cc;
+    color: black;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 3 dashed #545454;
+    text-align: center;
+}
