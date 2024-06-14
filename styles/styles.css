@@ -28,7 +28,7 @@ main {
 aside {
     width: 400px;
     margin: 15px;
-    border: 3 dashed black;
+    border: 3px dashed black;
     padding: 30px;
     background-color: #c7f9cc;
     color: black;
@@ -51,6 +51,6 @@ p {
 
 footer {
     margin-top: 20px;
-    border-top: 3 dashed #545454;
+    border-top: 3px dashed #545454;
     text-align: center;
 }
