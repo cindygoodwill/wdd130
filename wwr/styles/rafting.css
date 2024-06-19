@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+:root {
+    --primary-color: #8ECAE6;
+    --secondary-color: #023047;
+    --accent1-color: #219EBC;
+    --accent2-color: #FB8500;
+    --accent3-color: #FFB703;
+
+    --heading-font: "Libre Franklin", sans-serif;
+    --paragraph-font: "Roboto Slab", serif;
+
+    --nav-background-color: #8ECAE6;
+    --nav-link-color: #023047;
+    --nav-hover-link-color: #eb7d00;
+    --nav-hover-background-color: #219EBC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 100%;
+    padding: 20px 20px 20xp;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+    padding: 20px 20px 20px 1px;
+}
+
+header {
+    padding: 25px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 5px;
+    color: var(--secondary-color);
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-background-color);
+}
+
+div {
+    position: relative;
+}
+
+div h1 {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--accent2-color);
+}
+
+div article {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgba(255,183,3,0.70);
+    padding: 15px;
+    width: 75%;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#article-image {
+    float: right;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+}
+
