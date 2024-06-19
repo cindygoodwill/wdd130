@@ -3,17 +3,17 @@
 :root {
     --primary-color: #8ECAE6;
     --secondary-color: #023047;
-    --accent1-color: #219EBC;
-    --accent2-color: #FB8500;
-    --accent3-color: #FFB703;
+    --accent1-color: #54c3df;
+    --accent2-color: #ff8b44;
+    --accent3-color: #f7de6d;
 
     --heading-font: "Libre Franklin", sans-serif;
     --paragraph-font: "Roboto Slab", serif;
 
-    --nav-background-color: #8ECAE6;
-    --nav-link-color: #023047;
-    --nav-hover-link-color: #eb7d00;
-    --nav-hover-background-color: #219EBC;
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: var(--secondary-color);
+    --nav-hover-link-color: var(--accent3-color);
+    --nav-hover-background-color: var(--accent1-color);
 }
 
 * {
