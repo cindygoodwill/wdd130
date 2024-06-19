@@ -46,10 +46,8 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 40px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+    top: 47px;
+    left: 120px;
 }
 
 main img {
