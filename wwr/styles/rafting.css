@@ -60,7 +60,6 @@ nav {
 .logo-text {
     font-family: var(--heading-font);
     color: var(--secondary-color);
-    font-style: bold;
     display: grid;
     justify-content: center;
     font-size: 1.7rem;
