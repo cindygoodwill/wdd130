@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WDD 130 | HTML Form - User Poll</title>
+        <link href="styles/poll-form.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>WDD 130 | Cindy Goodwill | HTML Form - User Poll</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset class="field1">
+                    <legend>Contact Information</legend>
+                    <label for="fullname">Full name</label>
+                    <input type="text" id="fullname" name="fullname">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail">
+                </fieldset>
+                <fieldset class="field2">
+                    <legend>Questions</legend>
+                    <label for="browser">What is your favorite browser?</label>
+                    <select class="select" id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="safari">Safari</option>
+                        <option value="microsoft-edge">Microsoft Edge</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                    <label class="lived" for="feedback">List the places you have lived:</label>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="San Diego California, Denver Colorado, Toronto Canada"></textarea>
+                </fieldset>
+                <button type="button">Submit Poll</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2024 | HTML Form - User Poll Activity | Cindy Goodwill</p>
+        </footer>
+    </body>
+</html>
