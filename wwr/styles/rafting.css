@@ -296,7 +296,7 @@ form {
     justify-content: center;
 }
 
-legend {
+form h2 {
     font-size: 2.1em;
     font-family: "Libre Franklin", monospace;
     color: #ff8b44;
