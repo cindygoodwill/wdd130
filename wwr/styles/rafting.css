@@ -224,6 +224,8 @@ footer {
 
 }
 
+/* Contact us page */
+
 .section3 {
     display: flex;
     flex-direction: column;
@@ -347,4 +349,91 @@ button:hover {
 
 .subscribe label {
     padding: 0 0 0 5px;
+}
+
+/* trips page */
+
+.section6 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.section7 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-items: center;
+
+}
+
+.section7 h1 {
+    align-self: center;
+    font-size: 3em;
+}
+
+.section7 p {
+    align-self: center;
+    text-align: center;
+}
+
+.section8 {
+    background-color: #f5f5f5;
+    display: grid;
+    gap: 4em;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 4em;
+
+}
+
+.trip {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trip img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.trip h2 {
+    font-size: 1.3em;
+}
+
+.trip p {
+    padding: 0;
+}
+
+.section9 {
+    background-color: #f5f5f5;
+    padding: 0 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section9 table {
+    border-collapse: collapse;
+    width: 65%;
+    
+}
+
+.section9 table th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.section9 table th {
+    background-color: grey;
+    color: white;
+}
+
+.section9 table td {
+    background-color: white;
 }
