@@ -13,7 +13,6 @@
     --nav-background-color: var(--primary-color);
     --nav-link-color: var(--secondary-color);
     --nav-hover-link-color: var(--accent3-color);
-    --nav-hover-background-color: var(--accent1-color);
 }
 
 * {
@@ -315,7 +314,7 @@ button {
 }
 
 button:hover {
-    background-color: #d9d9d9;
+    background-color: #181da0;
 }
 
 .name-email {
